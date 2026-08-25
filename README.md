@@ -1,4 +1,4 @@
-# Lattice sieving by precise shell counting
+# Lattice Sieving by Precise Shell Counting
 
 This repository counts, exactly, the lattice points and the primitive lattice points of the integer lattice `Z^m` inside a Euclidean ball of radius `R`, far beyond the range that enumeration reaches. It computes, exactly, the joint distribution of the two norms and the inner product of a pair of lattice vectors of `Z^n`, and therefore the exact probability that two sieve database vectors reduce each other. These probabilities are exponentially small, so no sampling method can reach them. It runs the *shell sieve*, a two-sieve whose database size and radius schedule come from those exact probabilities instead of from the Gaussian heuristic, and it also evaluates the Gauss sieve experiment on `Z^n` presented by [Bennett et el.](https://link.springer.com/chapter/10.1007/978-3-031-30589-4_9) for comparison.
 
